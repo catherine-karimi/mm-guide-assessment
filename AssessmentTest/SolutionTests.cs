@@ -5,7 +5,7 @@ namespace AssessmentTest;
 public class SolutionTests
 {
 	[Fact]
-	public void Test1()
+	public void SolvePuzzle1_ReturnsExpectedResult()
 	{
 		var input = new int[,]
 		{
@@ -17,12 +17,12 @@ public class SolutionTests
 			{8, 8, 9, 1 }
 		};
 
-		var result = Solution1.MultiplySumationOfMinimumTicks(input);
+		var result = Solution1.SolvePuzzle1(input);
 		Assert.Equal(504, result);
 	}
 
 	[Fact]
-	public void Test2()
+	public void SolvePuzzle2_ReturnsExpectedResult()
 	{
 		var input = new int[][]
 		{
@@ -35,7 +35,7 @@ public class SolutionTests
 	}
 
 	[Fact]
-	public void Test3()
+	public void SolvePuzzle3_ReturnsExpectedResult()
 	{
 		var input = new List<Dictionary<char, char>>
 		{
@@ -48,7 +48,7 @@ public class SolutionTests
 	}
 
 	[Fact]
-	public void Test4()
+	public void SolvePuzzle4_ReturnsExpectedResult()
 	{
 		var input = new Dictionary<int, int[]>
 		{
@@ -60,7 +60,7 @@ public class SolutionTests
 	}
 
 	[Fact]
-	public void Test5()
+	public void SolvePuzzle5_ReturnsExpectedResult()
 	{
 		var input = new bool[4, 4]
 		{

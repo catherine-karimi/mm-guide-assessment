@@ -4,7 +4,7 @@
     {
         const int _dials = 4;
 
-        public static int MultiplySumationOfMinimumTicks(int[,] input)
+        public static int SolvePuzzle1(int[,] input)
         {
             Validate(input);
 
